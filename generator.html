@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Wedding Invite Link Generator</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      max-width: 600px;
+      margin: 50px auto;
+      padding: 20px;
+      background: #f9f9f9;
+      border-radius: 12px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    input, button {
+      width: 100%;
+      padding: 12px;
+      margin-top: 10px;
+      font-size: 16px;
+    }
+    #result {
+      margin-top: 20px;
+      padding: 12px;
+      background-color: #e0ffe0;
+      border: 1px solid #00aa00;
+      word-break: break-word;
+    }
+    .actions {
+      display: flex;
+      gap: 10px;
+      flex-wrap: wrap;
+      margin-top: 10px;
+    }
+    .actions button {
+      flex: 1;
+    }
+  </style>
+</head>
+<body>
+  <h2>Wedding Invite Link Generator</h2>
+
+  <label for="name">Guest Name:</label>
+  <input type="text" id="name" placeholder="e.g. Georges">
+
+  <label for="guests">Number of Guests:</label>
+  <input type="number" id="guests" placeholder="e.g. 3">
+
+  <button onclick="generateLink()">Generate Invite Link</button>
+
+  <div id="result" style="display:none;">
+    <strong>Generated Link:</strong><br>
+    <a id="invite-link" href="#" target="_blank"></a>
+
+    <div class="actions">
+      <button onclick="copyToClipboard()">Copy Link</button>
+      <button onclick="shareViaWhatsApp()">Share via WhatsApp</button>
+    </div>
+  </div>
+
+  <script>
+    let currentLink = "";
+
+    function generateLink() {
+      const name = document.getElementById("name").value.trim();
+      const guests = document.getElementById("guests").value.trim();
+      const baseUrl = "file:///C:/Users/User/Desktop/New%20folder%20(2)/Georges&Lara/Georges&Lara/index.html";
+
+      if (!name || !guests) {
+        alert("Please fill in both fields.");
+        return;
+      }
+
+      const encodedName = btoa(name);
+      const encodedGuests = btoa(guests);
+      currentLink = `${baseUrl}?data=${encodedName}.${encodedGuests}`;
+
+      const linkElement = document.getElementById("invite-link");
+      linkElement.href = currentLink;
+      linkElement.textContent = currentLink;
+
+      document.getElementById("result").style.display = "block";
+    }
+
+    function copyToClipboard() {
+      navigator.clipboard.writeText(currentLink).then(() => {
+        alert("Link copied to clipboard!");
+      });
+    }
+
+    function shareViaWhatsApp() {
+      const message = `You're invited to our wedding! 🎉\nClick here to view your invite:\n${currentLink}`;
+      const encodedMessage = encodeURIComponent(message);
+      const whatsappUrl = `https://wa.me/?text=${encodedMessage}`;
+      window.open(whatsappUrl, "_blank");
+    }
+  </script>
+</body>
+</html>
