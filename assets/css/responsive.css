@@ -1,0 +1,2333 @@
+/* ============ megamenu starts ============ */
+
+@media all and (min-width: 992px) {
+				
+    .navbar .has-megamenu {
+        position: static !important;
+    }
+
+    .navbar .megamenu {
+        left: 0;
+        right: 0;
+        width: 100%;
+        margin-top: 0;
+    }
+
+    .navbar .dropdown-menu-end {
+        right: 0;
+        left: auto;
+    }
+
+    .navbar .nav-item .dropdown-menu {
+        display: block;
+        opacity: 0;
+        visibility: hidden;
+        transition: .3s;
+        margin-top: 0;
+    }
+
+    .navbar .nav-item:hover .nav-link {
+        color: var(--color-white);
+    }
+
+    .navbar .dropdown-menu.fade-down {
+        top: 80%;
+        transform: rotateX(-75deg);
+        transform-origin: 0% 0%;
+        background-color: var(--color-white);
+        /* font-family: 'Rubik'; */
+        font-family: 'Candara', sans-serif;
+    }
+
+    li.nav-item.dropdown:not(:last-child) {
+        margin-right: 10px;
+    }
+
+    .navbar .dropdown-menu.fade-up {
+        top: 180%;
+    }
+
+    .navbar .nav-item:hover .dropdown-menu {
+        transition: .3s;
+        opacity: 1;
+        visibility: visible;
+        top: 100%;
+        transform: rotateX(0deg);
+    }
+
+    .col-megamenu ul li a {
+        color: #08302a;
+    }
+
+    .mobile-menu-top {
+        padding: 0 50px;
+    }
+
+    .navbar .nav-item .megamenu {
+        padding: 20px 100px 12px;
+    }
+}
+
+
+/* ============ megamenu ends here ============ */
+
+@media (max-width: 1550px) {
+    .c-home-about.about-us-bg:after {
+        width: 115px;
+        height: 270px;
+    }
+
+    .gallery-desc h5 {
+        font-size: 35px;
+        line-height: 35px;
+    }
+
+    .c-home-about .hero-image {
+        width: 280px;
+        height: 280px;
+        margin-top: -230px;
+    }
+
+    .hero-text h1 {
+        font-size: 80px;
+        z-index: 9;
+    }
+
+    .hero-section-2 #countdown ul li {
+        line-height: 60px;
+    }
+
+    .home-date-text {
+        font-size: 35px;
+    }
+
+    .landing-inside h1 {
+        font-size: 50px;
+    }
+
+    .landing-desc p {
+        font-size: 23px;
+        padding: 10px 0 0 0;
+    }
+
+    .btn-primary,
+    .btn-secondary {
+        padding: 6px 18px;
+        font-size: 15px;
+    }
+
+    .story.landingpage .story-couple::before {
+        width: 380px;
+        height: 440px;
+    }
+
+    .attendance-sec h2 {
+        font-size: 60px;
+    }
+
+    .banner-about-title {
+        font-size: 55px;
+    }
+
+    /* .page-title {
+        min-height: 370px;
+    } */
+
+    .page-title::before {
+        height: 595px;
+        width: 200px;
+        background-position: -5% 47%;
+    }
+
+    .story-couple .story-couple-image::after {
+        display: none;
+    }
+
+    .event-services-adjust.c-about-progress-top::before {
+        top: -100px;
+        left: -130px;
+    }
+
+    .text-container-masonary h6,
+    .quote-adjust h6 {
+        font-size: 22px;
+    }
+
+    .coupleshape {
+        opacity: 0.5;
+    }
+}
+
+@media (max-width: 1440px) {
+    .banner-about-title {
+        font-size: 29px;
+    }
+
+    .story-couple::before {
+        background-position: -140% -46%;
+        width: 370px;
+        height: 390px;
+    }
+
+    /* .page-title {
+        min-height: 370px;
+    } */
+
+    .landing-desc img {
+        width: 250px;
+    }
+
+    .landing-desc p {
+        padding: 10px 0;
+    }
+
+    .landing-desc a {
+        margin-top: 10px;
+    }
+
+    .hero-area {
+        top: calc(50% + 23px);
+    }
+
+    .story-couple .story-couple-image::after {
+        display: none;
+    }
+
+    /* -------------------------- homepage starts here -------------------------- */
+    .our-moments-wrapper::before {
+        height: 458px;
+        width: 326px;
+        left: -50px;
+        top: -155px;
+    }
+
+    .about-us-bg:before {
+        width: 670px;
+        height: 770px;
+    }
+
+    .about-us-bg:after {
+        width: 150px;
+        height: 310px;
+    }
+
+    /* ------------------------- aboutpage starts here ------------------------- */
+    .our-moments-wrapper::after {
+        width: 566px;
+        right: -220px;
+        bottom: -150px;
+        background-size: contain;
+        height: 538px;
+    }
+
+    .coupleshape {
+        position: absolute;
+        left: 0;
+        width: 190px;
+        z-index: -1;
+    }
+
+    /* -------------------------- aboutpage ends here -------------------------- */
+    /* ------------------------- custom starts here ------------------------- */
+    /* -------------------------- homepage ends here -------------------------- */
+    .c-container-padding {
+        padding: 0 100px;
+    }
+
+    /* ------------------------- custom ends here ------------------------- */
+    /* ----------------------- blog single page start here ---------------------- */
+    .blog-sidemain-image:after {
+        height: 230px;
+        width: 210px;
+        top: -1px;
+        left: 40%;
+    }
+
+    .cstm-pl {
+        padding-left: 50px;
+    }
+
+    /* ----------------------- blog single page end ---------------------- */
+    /* ----------------------- RSVP page start ---------------------- */
+    .about-single-content.rsvp-adust p,
+    .about-single-content.rsvp-adust p:last-child {
+        width: 100%;
+    }
+
+    /* ----------------------- RSVP page end ---------------------- */
+    /* --------------------------- page title starts --------------------------- */
+    .page-title::before {
+        content: "";
+        position: absolute;
+        height: 280px;
+        width: 500px;
+        right: 0;
+        bottom: -50px;
+        background-position: 160% 100%;
+        background-size: contain;
+    }
+
+    /* --------------------------- page title ends --------------------------- */
+    .attendance-sec {
+        padding: 100px 0;
+    }
+
+    .attendance-sec h2 {
+        font-size: 60px;
+    }
+
+    /* ------------------------- about page starts ------------------------- */
+    .our-moments-wrapper {
+        margin-bottom: 175px;
+    }
+
+    /* ------------------------- about page ends ------------------------- */
+    /* ------------------------- Cover Boxes page starts ------------------------- */
+    .image-cover-content p {
+        -webkit-line-clamp: 4;
+    }
+
+    /* ------------------------- Cover Boxes page ends ------------------------- */
+    /* ------------------------- story page starts ------------------------- */
+    .story-couple .story-couple-text h4 {
+        font-size: 48px;
+    }
+
+    /* ------------------------- story page ends ------------------------- */
+    /* ------------------------- landing page starts ------------------------- */
+    .story.landingpage .story-couple::before {
+        opacity: 0.5;
+        z-index: 0;
+    }
+
+    /* ------------------------- landing page ends ------------------------- */
+}
+
+@media (max-width: 1280px) {
+    .pages-inside {
+        margin-top: 50px;
+    }
+
+    .our-moments-wrapper::before {
+        height: 338px;
+        width: 296px;
+        left: -50px;
+        top: -125px;
+    }
+
+    .our-moments-wrapper::after {
+        width: 486px;
+        right: -230px;
+        bottom: -210px;
+        height: 398px;
+    }
+
+    .landing-banner {
+        padding: 180px 0 100px;
+    }
+
+    .landing-inside .main-title h5 {
+        font-size: 30px;
+    }
+
+    .moment-above-img {
+        bottom: -190px;
+    }
+
+    /* -------------------- custom container css starts -------------------- */
+    .c-container-padding {
+        padding: 0 50px;
+    }
+
+    /* -------------------- custom container css ends -------------------- */
+    /* ------------------------- Home page starts ------------------------- */
+    .video-sec {
+        height: 430px;
+    }
+
+    /* ------------------------- Home page ends ------------------------- */
+    /* ------------------------- about page starts ------------------------- */
+    .couple-container {
+        padding: 0 50px;
+    }
+
+    .about-couple::before {
+        width: 115px;
+        height: 100px;
+    }
+
+    .about-couple::after {
+        background-size: 38%;
+        background-position: 100% 70%;
+    }
+
+    .c-container-padding {
+        padding: 0 30px;
+    }
+
+    .about-progress {
+        padding-left: 60px;
+    }
+
+    .about-progress::before {
+        opacity: 0.5;
+        top: -125px;
+        left: -135px;
+    }
+
+    .about-getting-married {
+        max-width: 90%;
+        position: relative;
+        z-index: 1;
+    }
+
+    .progress-value-wrapper .examples {
+        padding: 5px 0;
+    }
+
+    .progress-value {
+        padding: 5px 25px;
+    }
+
+    .first-let,
+    .last-let {
+        font-size: 60px;
+    }
+
+    .name-footer {
+        height: 80px;
+    }
+
+    .couple-right {
+        order: 3;
+        margin-top: 30px;
+    }
+
+    .couple-center {
+        order: 2;
+        margin: 0 25px;
+    }
+
+    .couple-left {
+        order: 1;
+        margin-top: 20px;
+    }
+
+    .our-moments-wrapper {
+        margin-bottom: 255px;
+    }
+
+    /* ------------------------- about page ends ------------------------- */
+    /* -------------------------- rsvp page starts ------------------------- */
+    .card-right-design img {
+        max-width: 250px;
+    }
+
+    .inner-form {
+        padding: 30px;
+    }
+
+    /* -------------------------- rsvp page ends ------------------------- */
+    /* -------------------------- story  page starts ------------------------- */
+    .story-couple .story-couple-text p {
+        max-width: 70%;
+    }
+
+    .story-couple .story-couple-text h4 {
+        max-width: 95%;
+    }
+
+    .m-flex {
+        align-items: center;
+        justify-content: center;
+    }
+
+    .story-couple .story-couple-image img {
+        position: unset;
+        width: 100%;
+    }
+
+    .story-couple .story-couple-text {
+        padding: 60px 0px;
+    }
+
+    .story-couple::before {
+        opacity: .2;
+    }
+
+    .dot-line img {
+        top: -96px;
+        width: 68%;
+    }
+
+    .story-timeline-text.text-left::before {
+        width: 250px;
+        height: 250px;
+        top: -90px;
+    }
+
+    .story-timeline-text.text-right::before {
+        width: 250px;
+        height: 250px;
+        top: -90px;
+    }
+
+    /* -------------------------- story page ends ------------------------- */
+    /* --------------------------- about starts --------------------------- */
+    .about-single-title {
+        font-size: 20px;
+    }
+
+    /* --------------------------- page title starts --------------------------- */
+    .page-title::before {
+        content: "";
+        position: absolute;
+        height: 250px;
+        width: 440px;
+        right: 0;
+        bottom: -50px;
+        background-position: 160% 100%;
+        background-size: contain;
+        z-index: 9;
+    }
+
+    /* --------------------------- page title ends --------------------------- */
+    /* ------------------------- Cover Boxes page starts ------------------------- */
+    .image-cover img {
+        height: 180px;
+        object-fit: cover;
+    }
+
+    /* ------------------------- Cover Boxes page ends ------------------------- */
+}
+
+@media (max-width: 1024px) {
+    .blog-action-content {
+        font-size: 21px;
+        display: flex;
+        align-items: center;
+    }
+
+    .blog-action-content-invitees {
+        
+        font-size: 15px;
+        
+    }
+    .rsvp-bordered {
+        width: 160px;
+        height: 160px;
+    }
+
+    .landing-inside h1 {
+        font-size: 35px;
+    }
+
+    .landing-desc p {
+        font-size: 20px;
+        padding: 10px 0;
+    }
+
+    .page-name {
+        font-size: 20px;
+    }
+
+    /* --------------------------- megamenu starts --------------------------- */
+    .dropdown-menu.megamenu::before {
+        height: 163px;
+        width: 207px;
+        background-size: contain;
+        right: -50px;
+        bottom: -30px;
+    }
+
+    /* --------------------------- megamenu ends --------------------------- */
+    /* -------------------------- homepage starts -------------------------- */
+    .video-sec {
+        height: 350px;
+    }
+
+    .video-play-button {
+        width: 26px;
+        height: 32px;
+        padding: 8px 17px 14px 21px;
+    }
+
+    .hero-text h1 {
+        font-size: 80px;
+    }
+
+    .btn-primary {
+        font-size: 15px;
+    }
+
+    .hero-image:before {
+        left: -70px;
+    }
+
+    /* -------------------------- homepage ends -------------------------- */
+    /* --------------------------- about starts --------------------------- */
+    .about-couple .couple-left p,
+    .about-couple .couple-right p {
+        max-width: none;
+    }
+
+    .about-progress-inner {
+        height: 500px;
+    }
+
+    .couple-center {
+        order: 1;
+    }
+
+    .couple-left {
+        order: 2;
+    }
+
+    .about-couple .m-flex {
+        flex-direction: column;
+    }
+
+    .c-about-progress-top::before {
+        width: 250px;
+        height: 329px;
+        bottom: -60px;
+    }
+
+    /* --------------------------- about ends --------------------------- */
+    /* --------------------------- gallery page starts --------------------------- */
+    .newsletter-action button {
+        min-width: inherit;
+    }
+
+    /* --------------------------- gallery page ends --------------------------- */
+    /* ---------------------- Blog Masonry page start --------------------- */
+    .grid {
+        width: 33.33%;
+    }
+
+    /* ---------------------- Blog Masonry page endt --------------------- */
+    /* ---------------------- blog single page starts --------------------- */
+    .cstm-pl {
+        padding-left: 15px;
+    }
+
+    /* ---------------------- blog single page ends --------------------- */
+    /* -------------------------- rsvp page starts ------------------------- */
+    .about-single-content.rsvp-adust img {
+        height: 65px;
+        width: auto;
+    }
+
+    /* -------------------------- rsvp page ends ------------------------- */
+    /* -------------------------- story page starts ------------------------- */
+    .story-couple .story-couple-text h4 {
+        font-size: 40px;
+    }
+
+    .story-timeline-text.text-left::before {
+        top: -50px;
+    }
+
+    .story-timeline-text.text-right::before {
+        top: -50px;
+    }
+
+    /* -------------------------- story page ends ------------------------- */
+}
+
+@media (max-width: 991px) {
+	/*added*/
+	 .save_date_section:before {
+                width: 90px;
+            }
+     .save_date_section:after {
+                width: 110px;
+                height: 140px;
+            }
+	.save_date_section h3 {
+                font-size: 40px;
+                line-height: 70px;
+            }
+	 .address_content {
+                font-size: 20px;
+                margin-bottom: 10px;
+            }
+	/**/
+    .about-single-sep {
+        margin-bottom: 5px;
+    }
+
+    .blog-cat-content .blog-cat-number {
+        font-size: 15px;
+    }
+
+    .blog-cat-content:not(:last-child),
+    .blog-small-side-content:not(:last-child) {
+        margin-bottom: 3px;
+    }
+
+    .blog-cat-content .blog-cat-number {
+        width: 30px;
+        height: 30px;
+    }
+
+    .blog-side-contents {
+        margin: 20px 0 0;
+    }
+
+    .blog-sidebar {
+        margin-top: 30px !important;
+    }
+
+    .hero-area {
+        top: calc(50% + 37px);
+    }
+
+    .event-slide-sec .main-title {
+        margin-top: 70px;
+    }
+
+    .landing-desc,
+    .landing-inside h1 {
+        text-align: center;
+    }
+
+    .landing-img {
+        text-align: center;
+        padding-top: 30px;
+    }
+
+    .landing-banner {
+        padding: 60px 0 60px;
+    }
+
+    .footer-bg1 {
+        width: 220px;
+        height: 220px;
+    }
+
+    /* ----------------------- Dropcaps start ---------------------- */
+    .dropdcaps-wrapper p {
+        margin-bottom: 30px;
+    }
+
+    /* ----------------------- Dropcaps end ---------------------- */
+    /* ----------------------- Column start ---------------------- */
+    .columns h4 {
+        font-size: 30px;
+    }
+
+    /* ----------------------- Column end ---------------------- */
+    /* ----------------------- Cover Boxes start ---------------------- */
+    .image-cover img {
+        height: auto;
+    }
+
+    .flip-card-back {
+        padding: 8px;
+    }
+
+    .flip-card-back p {
+        font-size: 14px;
+    }
+
+    .cover-content-main ul li {
+        position: initial;
+        display: block;
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .cover-content-main ul {
+        width: 100%;
+        height: initial !important;
+    }
+
+    .cover-content-main ul li .image-cover-content {
+        opacity: 1;
+    }
+
+    .cover-content-main ul li .cover-content {
+        display: flex;
+        align-items: center;
+    }
+
+    /* ----------------------- Cover Boxes end ---------------------- */
+    /* ------------------------- footer css starts ------------------------- */
+    .first-let,
+    .last-let {
+        font-size: 70px;
+    }
+
+    /* ------------------------- footer css ends ------------------------- */
+    section,
+    .section {
+        overflow: hidden;
+    }
+
+    /* --------------------------- navbar starts --------------------------- */
+    .navbar-toggler:focus {
+        box-shadow: none;
+    }
+
+    .mobile-menu-top {
+        padding: 10px;
+    }
+
+    header .nav-item .dropdown-item {
+        color: var(--color-main);
+        opacity: 0.8;
+        padding: 5px 0;
+        font-size: 16px;
+    }
+
+    header .fixed-top .nav-item .dropdown-item {
+        color: var(--color-white);
+
+    }
+
+    header .dropdown-item.active,
+    header .dropdown-item:active {
+        background-color: transparent;
+    }
+
+    .dropdown-menu.megamenu .col-12 {
+        margin: 0 !important;
+    }
+
+    .dropdown-menu li:last-child {
+        border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    }
+
+    .dropdown-menu.megamenu h6.text-brown {
+        margin-bottom: 20px !important;
+    }
+
+    .navbar.fixed-top .navbar-collapse,
+    .navbar.sticky-top .navbar-collapse {
+        overflow-y: auto;
+        max-height: 90vh;
+    }
+
+    .mobile-menu-top .navbar-collapse {
+        border-radius: 0 !important;
+    }
+
+    .dropdown-menu.megamenu,
+    .navbar-nav .dropdown-menu {
+        overflow-y: auto;
+        max-height: 250px;
+        background: transparent;
+        padding-right: 0;
+        padding-top: 0;
+        padding-left: 12px;
+        box-shadow: none;
+        border-left: 3px solid var(--color-brown);
+        border-top: none;
+        margin-left: 30px;
+        margin-bottom: 12px;
+    }
+
+    .col-megamenu .title {
+        color: var(--color-white);
+    }
+
+    .fixed-top .col-megamenu ul li a {
+        color: var(--color-white);
+        opacity: 0.8;
+        font-size: 15px;
+        padding: 0;
+    }
+
+    .col-megamenu ul li a {
+        color: var(--color-main);
+        opacity: .8;
+    }
+
+    .col-megamenu ul li {
+        border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+        line-height: 35px;
+    }
+
+    .dropdown-menu.megamenu::before {
+        display: none;
+    }
+
+    .navbar-dark .navbar-nav .nav-link:focus,
+    .navbar-dark .navbar-nav .nav-link:hover {
+        color: var(--color-brown);
+        font-weight: 600;
+    }
+
+    /* header nav.navbar.navbar.fixed-top {
+        background-color: var(--color-lightblue);
+    } */
+
+    .dropdown-menu li {
+        border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    }
+
+    /* nav menu ul scroll starts */
+    .dropdown-menu.megamenu::-webkit-scrollbar {
+        width: 3px;
+    }
+
+    .dropdown-menu.megamenu::-webkit-scrollbar-track {
+        background: rgba(255, 255, 255, 0.8);
+    }
+
+    .dropdown-menu.megamenu::-webkit-scrollbar-thumb {
+        background: var(--color-brown);
+    }
+
+    .dropdown-menu.megamenu::-webkit-scrollbar-thumb:hover {
+        background: #555;
+    }
+
+    /* nav menu ul scroll ends */
+    .navbar-nav .nav-item .nav-link {
+        padding: 7px 8px;
+    }
+
+    .navbar-toggler-img {
+        height: 20px;
+        /* filter: brightness(0) saturate(100%) invert(0%) sepia(0%) saturate(0%) hue-rotate(308deg) brightness(99%) contrast(101%); */
+        filter: brightness(0) saturate(100%) invert(100%) sepia(100%) saturate(2%) hue-rotate(13deg) brightness(109%) contrast(101%);
+    }
+
+    .fixed-top .navbar-toggler-img {
+        filter: brightness(0) saturate(100%) invert(100%) sepia(100%) saturate(2%) hue-rotate(13deg) brightness(109%) contrast(101%);
+    }
+
+    .dropdown-menu.megamenu h6 {
+        font-size: 16px;
+        display: block;
+        margin-bottom: 20px !important;
+        color: var(--color-brown);
+        font-weight: 600;
+    }
+
+    .col-megamenu ul li {
+        border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+        line-height: initial;
+        padding: 5px 0;
+    }
+
+    .navbar-nav .nav-item .nav-link {
+        padding: 7px 8px;
+    }
+
+    /* --------------------------- navbar ends --------------------------- */
+    /* ------------------------- home page starts ------------------------- */
+    .video-sec {
+        height: 400px;
+    }
+
+    .c-home-about {
+        overflow: unset;
+    }
+
+    .c-home-about .hero-image {
+        width: 250px;
+        height: 250px;
+    }
+
+    .c-home-about .hero-image::before {
+        width: 200px;
+        height: 225px;
+        top: 55%;
+        left: -80px;
+    }
+
+    .c-home-about .hero-image::after {
+        width: 200px;
+        height: 225px;
+        top: 50%;
+        right: -50px;
+    }
+
+    .c-home-about.about-us-bg:after {
+        display: none;
+    }
+
+    /* ------------------------- home page ends ------------------------- */
+    /* ------------------------- about page starts ------------------------- */
+    .coupleshape {
+        display: none;
+    }
+
+    .moments-card-left {
+        padding: 20px;
+    }
+
+    .plan-card-col {
+        margin-top: 36px;
+    }
+
+    .about-progress-inner {
+        max-height: unset;
+        height: auto;
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .progress-left {
+        width: 100%;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .c-about-progress-top .progress-right {
+        width: 100%;
+    }
+
+    .progress-main-wrapper {
+        padding: 50px 20px;
+    }
+
+    .mb0 {
+        margin-bottom: 0;
+    }
+
+    .c-about-progress-top {
+        overflow: visible;
+    }
+
+    .c-about-progress-top::before {
+        bottom: -50px;
+        right: 0;
+        /* opacity: 0.5; */
+    }
+
+    .about-getting-married {
+        max-width: 100%;
+    }
+
+    .about-progress {
+        padding-right: 60px;
+        height: auto;
+    }
+
+    .c-about-progress-top {
+        padding-top: 0;
+    }
+
+    .page-title {
+        min-height: 380px;
+    }
+
+    .couple-container {
+        max-width: calc(100% - 50px);
+    }
+
+    .cd-992-none {
+        display: none;
+    }
+
+    .cd-992-block {
+        display: block;
+    }
+
+    .c-about-progress-top {
+        padding-bottom: 0;
+    }
+
+    .progress-left {
+        order: 2;
+    }
+
+    .moments-card-left {
+        max-width: 100%;
+    }
+
+    .our-moments-wrapper::before {
+        display: none;
+    }
+
+    .moments-main {
+        padding-top: 50px;
+    }
+
+    .our-moments-wrapper::after {
+        display: none;
+    }
+
+    .about-couple::after {
+        display: none;
+    }
+
+    .team-top-margin {
+        margin-top: 40px;
+    }
+
+    /* ------------------------- about page ends ------------------------- */
+    /* ------------------------- story page starts ------------------------- */
+    .m-flex {
+        flex-direction: column;
+    }
+
+    .dot-line img {
+        top: -96px;
+        width: auto;
+    }
+
+    .story-couple .story-couple-text p {
+        max-width: 100%;
+    }
+
+    .story-couple .story-couple-text h4 {
+        max-width: 100%;
+    }
+
+    .story-name {
+        padding-top: 0;
+    }
+
+    /* timeline */
+    .story-timeline .story-timeline-wrapper .story-timeline-text {
+        width: 80%;
+        order: 2;
+        text-align: center !important;
+        padding: 90px 50px 45px;
+    }
+
+    .story-timeline-wrapper {
+        flex-direction: column;
+    }
+
+    .story-timeline .story-timeline-wrapper .story-timeline-image {
+        width: 50%;
+        height: auto;
+        transform: unset;
+        right: unset;
+        bottom: -50px;
+    }
+
+    .story-timeline .story-timeline-wrapper .story-timeline-image .timeline-image {
+        height: auto;
+    }
+
+    .story-timeline .story-timeline-wrapper .story-timeline-image .timeline-image H4 {
+        font-size: 23px;
+    }
+
+    .story-timeline-text.text-left::before {
+        right: -100px;
+        top: -200px;
+        transform: scaleX(1);
+    }
+
+    .story-timeline .story-timeline-wrapper .story-timeline-image.image-left {
+        width: 50%;
+        height: auto;
+        transform: unset;
+        left: unset;
+        bottom: -50px;
+    }
+
+    .story-timeline-text.text-right::before {
+        left: -100px;
+        top: -200px;
+        transform: scaleX(-1);
+    }
+
+    .story-timeline .story-timeline-wrapper .story-timeline-text.text-right {
+        padding: 90px 50px 45px;
+    }
+
+    .story-timeline-wrapper {
+        padding-bottom: 20px;
+        padding-top: 20px;
+    }
+
+    /* timeline */
+    /* newsletter */
+    .newsletter p {
+        margin-bottom: 20px;
+    }
+
+    /* newsletter */
+    .card-rsvp-container {
+        transform: scale(0.9) translate(0, 50px) !important;
+    }
+
+    .story-couple .story-couple-text h4 {
+        font-size: 30px;
+    }
+
+    .story-couple .story-couple-text {
+        padding-bottom: 0;
+    }
+
+    /* ------------------------- story page ends ------------------------- */
+    /* --------------------- event details page starts --------------------- */
+    .event-services-adjust .progress-main-wrapper {
+        height: 450px;
+        display: block;
+        width: calc(100% - 60px);
+        z-index: 1;
+    }
+
+    .about-progress {
+        height: auto;
+        width: 100%;
+        display: block;
+    }
+
+    .about-getting-married p {
+        max-width: 100%;
+    }
+
+    /* --------------------- event details page ends --------------------- */
+    /* --------------------------- navbar starts --------------------------- */
+    .navbar-dark .navbar-toggler {
+        border: 0;
+    }
+
+    div#main-nav {
+        border-radius: 4px;
+    }
+
+    .navbar-nav {
+        padding: 10px;
+    }
+
+    /* --------------------------- navbar ends --------------------------- */
+    /* -------------------------- homepage starts -------------------------- */
+    .about-us-bg:before {
+        width: 130px;
+        height: 240px;
+    }
+
+    .about-us-bg:after {
+        width: 110px;
+        height: 310px;
+    }
+
+    .hero-text h1 {
+        font-size: 80px;
+    }
+
+    h3 {
+        font-size: 50px;
+    }
+
+    .hero-area .row {
+        justify-content: center;
+    }
+
+    .moments-card-left h4 {
+        font-size: 40px;
+    }
+
+    .moment-above-img {
+        bottom: -335px;
+        max-height: 456px;
+        max-width: 627px;
+    }
+
+    .about-us-bg:after {
+        bottom: 40px;
+    }
+
+    .inner-title h4 {
+        font-size: 40px;
+        line-height: 50px;
+    }
+
+    /* -------------------------- homepage ends -------------------------- */
+    /* -------------------------- aboutpage starts -------------------------- */
+    .progress-value {
+        padding: 0;
+    }
+
+    .story-timeline .story-timeline-wrapper .story-timeline-image .timeline-image img {
+        height: auto;
+    }
+     .icon-text-wrapper .col-lg-4:not(:last-child) .icon-inside {
+        margin-bottom: 30px;
+    }
+    /* -------------------------- aboutpage ends -------------------------- */
+}
+
+@media (max-width: 768px) {
+	
+	/*added*/
+	      .save_date_section:after {
+                right: -20px;
+            }
+            .save_date_section:before {
+                top: -20px;
+            }
+		.save_date_section:after {
+                width: 90px;
+                height: 90px;
+                opacity: 0.7;
+            }
+
+	 .save_date_section h3 {
+                font-size: 30px;
+                line-height: 50px;
+            }
+	 .address_content {
+                font-weight: 400;
+            }
+			
+    .gallery-tab-wrapper .single-tab-3 .nav-tabs {
+        margin-bottom: 30px;
+    }
+
+    .c-home-about .hero-image {
+        margin-top: -175px;
+    }
+
+    .nav-tabs-design .nav-tabs .nav-link {
+        display: inline-block;
+    }
+
+    .nav-tabs-design {
+        width: 100%;
+    }
+
+    .single-tab-3 .nav-tabs {
+        display: flex;
+        text-align: center;
+        width: fit-content;
+    }
+
+    .landing-inside .main-title h5 {
+        font-size: 20px;
+    }
+
+
+    .attendance-sec h2 {
+        font-size: 40px;
+    }
+
+    .page-title::before {
+        height: 175px;
+        width: 310px;
+        bottom: -40px;
+    }
+
+    .landing-inside::after {
+        display: none;
+    }
+
+    .orange-accordions {
+        margin-top: 30px;
+    }
+
+    .event-slide-sec .main-title {
+        margin-top: 0;
+    }
+
+    /* -------------------------- Start Home Page -------------------------- */
+    .order22 {
+        order: 2;
+    }
+
+    .order11 {
+        order: 1;
+    }
+
+    .hero-text-2 h1 {
+        font-size: 70px;
+    }
+
+    .about-us-bg .main-title {
+        margin-bottom: 10px;
+    }
+
+    #countdown {
+        position: relative;
+        z-index: 2;
+    }
+
+    .about-us-bg:after {
+        bottom: 0;
+    }
+
+    /* -------------------------- homepage ends -------------------------- */
+    /* ------------------------- home page -2 starts ------------------------- */
+    .hero-section-2 #countdown {
+        margin-top: 20px;
+    }
+
+    .c-home-about .main-title {
+        margin-top: 30px;
+    }
+
+    /* ------------------------- home page ends ------------------------- */
+    /* ------------------------- about page starts ------------------------- */
+    .main-title h3 {
+        margin-top: -40px;
+    }
+
+    .page-title {
+        min-height: 250px;
+    }
+
+    .couple-container {
+        max-width: 100%;
+    }
+
+    .about-couple::before {
+        display: none;
+    }
+
+    section,
+    .section {
+        padding-top: 40px;
+        padding-bottom: 60px;
+    }
+
+    .couple-right {
+        margin-top: 25px;
+    }
+
+    .our-moments-wrapper>.moment-above-img {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .moment-above-img {
+        position: relative;
+        bottom: 0;
+    }
+
+    .moments-img-right img {
+        margin-top: 10px;
+    }
+
+    .our-moments-wrapper {
+        margin-bottom: 0;
+    }
+
+    /* ------------------------- about page ends ------------------------- */
+    /* ---------------------- Blog Masonry page start --------------------- */
+    .grid {
+        width: 50%;
+    }
+
+    /* ---------------------- Blog Masonry page end --------------------- */
+    /* ---------------------- story masonary page starts --------------------- */
+    .story-timeline .story-timeline-wrapper .story-timeline-text {
+        width: 100%;
+        padding: 90px 50px 45px;
+    }
+
+    .story-timeline .story-timeline-wrapper .story-timeline-image {
+        width: 70%;
+    }
+
+    .story-timeline .story-timeline-wrapper .story-timeline-image.image-left {
+        width: 70%;
+    }
+
+    .our-love-story {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    section,
+    .section {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .story-name {
+        padding-bottom: 50px;
+    }
+
+    .story-couple::before {
+        display: none;
+    }
+
+    /* ---------------------- story masonary page end --------------------- */
+    /* ---------------------- rsvp page starts --------------------- */
+    .celebration-space-adjust {
+        margin-top: 20px;
+    }
+
+    .card-rsvp-container {
+        transform: scale(0.9) translate(0, 30px);
+        margin-bottom: 30px;
+    }
+
+    body .celebrate-sec {
+        padding: inherit;
+        padding-bottom: inherit;
+        padding-top: 40px;
+    }
+
+    .celebrate-it-main {
+        margin-bottom: 40px;
+    }
+
+    body .rsvp-full-container.about-single-content {
+        margin-top: 90px;
+        height: inherit;
+    }
+
+    /* ---------------------- rsvp page ends --------------------- */
+    /* --------------------- event details page starts --------------------- */
+    .reception-main-image {
+        margin-top: 50px;
+    }
+
+    .event-slide-sec #gallery-slides {
+        margin-top: 40px;
+    }
+
+    .event-slide-sec {
+        padding-top: 40px !important;
+    }
+
+    /* --------------------- event details page ends --------------------- */
+}
+
+@media (max-width: 576px) {
+	/*added*/
+
+    .blog-church{
+        position:absolute;
+        left: 50%;
+        top: 63%;
+    }
+    .blog-venue{
+        position:absolute;
+        left: 50%;
+        top: 76%;
+    }
+    /*.blog-invitees{*/
+    /*    position:absolute;*/
+    /*    left: 50%;*/
+    /*    top: 74%;*/
+    /*}*/
+
+    .hero-section{
+height:60vh;
+    }
+    .blog-action-content {
+        font-size: 12px;
+        display: flex;
+        align-items: center;
+    }
+
+    .blog-action-content-invitees {
+        
+        font-size: 8px;
+        
+    }
+    
+	
+	.save_date_section:before,
+            .save_date_section:after {
+                opacity: 0.4;
+            }
+			
+	 .save_date_section h3 {
+                font-size: 21px;
+                line-height: 32px;
+            }
+
+		 .address_content {
+                font-size: 15px;
+            }
+			
+    .banner-about-title {
+        font-size: 35px;
+    }
+    .hero-area{
+        top: 30vh !important;
+        right:0 !important;
+        left:0;
+    }
+
+    .about-single-sep {
+        width: 30px;
+    }
+
+    .hero-404-area .hero-text h1 {
+        font-size: 90px;
+        line-height: 140px;
+    }
+
+    .story-name-text h2 span {
+        display: block;
+    }
+
+    .story .story-name-text img {
+        height: 30px;
+        margin-top: 10px;
+    }
+
+    .landing-inside::before {
+        width: 190px;
+        height: 150px;
+        background-position: 480% -331%;
+        background-size: 91%;
+    }
+
+    .pages-inside {
+        margin-top: 30px;
+    }
+
+    .inner-form {
+        padding: 15px;
+    }
+
+    body .rsvp-full-container.about-single-content {
+        margin-bottom: 30px;
+    }
+
+    .scroll-page {
+        margin-bottom: 30px;
+    }
+
+    .name-footer span {
+        justify-content: center;
+    }
+
+    .footer-main:before {
+        right: 50%;
+    }
+
+    .event-services-adjust.c-about-progress-top::before {
+        display: none;
+    }
+
+    .and {
+        font-size: 14px;
+    }
+
+    .footer-bg {
+        padding: 10px 0 10px 0;
+    }
+
+    .footer-main:after {
+        left: 50%;
+    }
+
+    .footer-bg1 {
+        width: 160px;
+        height: 160px;
+    }
+
+    .hero-text h1 {
+        font-size: 50px;
+        line-height: 50px;
+    }
+
+    .landing-inside .main-title h5 {
+        font-size: 16px;
+    }
+
+    .page-title::before {
+        height: 170px;
+        width: 300px;
+        bottom: -50px;
+    }
+
+    .hero-image:before {
+        left: -52px;
+        height: 180px;
+        width: 200px;
+    }
+
+    .hero-image:after {
+        right: -52px;
+        height: 180px;
+        width: 200px;
+    }
+
+    /* --------------------------------- Blockquote --------------------------------- */
+    .blog-element-wrapper .blog-element-wrapper {
+        padding: 30px 0 30px 0;
+    }
+
+    .blog-element-wrapper .blog-card-container {
+        margin-top: 0px;
+    }
+
+    /* --------------------------------- Blockquote --------------------------------- */
+    /* --------------------------------- Accordion --------------------------------- */
+    .accordion-button {
+        font-size: 15px !important;
+        padding: 15px !important;
+    }
+
+    .accordion-body {
+        padding: 15px !important;
+    }
+
+    /* --------------------------------- Accordion --------------------------------- */
+    /* ------------------------- footer css starts ------------------------- */
+    .first-let,
+    .last-let {
+        font-size: 35px;
+    }
+
+    .name-footer {
+        height: 50px;
+    }
+
+    .and {
+        color: var(--color-brown);
+        display: flex;
+        align-self: center;
+        /* font-family: 'Cinzel Decorative', cursive; */
+        font-family: 'Candara', sans-serif;
+        font-size: 14px;
+        font-weight: 600;
+    }
+
+    .footer-main img {
+        width: 150px;
+    }
+
+    .name-footer {
+        height: 70px;
+    }
+
+    .footer-main:after {
+        width: 150px;
+        height: 190px;
+        left: 60%;
+    }
+
+    .footer-main:before {
+        width: 150px;
+        height: 190px;
+        right: 60%;
+    }
+
+    /* --------------------------- footer ends --------------------------- */
+    /* ------------------------- home page starts ------------------------- */
+    .attendance-sec h6 {
+        font-size: 16px;
+        margin: 10px 0 15px;
+    }
+
+    .about-us-bg:before {
+        width: 80px;
+        height: 140px;
+    }
+
+    .main-title h3:before,
+    .main-title h3:after {
+        width: 60px;
+        height: 25px;
+    }
+
+    .about-us-bg:after {
+        width: 70px;
+        height: 180px;
+        z-index: -1;
+    }
+
+    .video-sec .modal-content {
+        height: 50vh;
+    }
+
+    .attendance-sec h2 {
+        font-size: 34px;
+    }
+
+    .order22 {
+        order: 2;
+    }
+
+    .order11 {
+        order: 1;
+    }
+
+    .video-sec {
+        margin-top: 0 !important;
+    }
+
+    .attendance-sec {
+        padding: 50px 0;
+    }
+
+    .video-sec {
+        height: 250px;
+    }
+
+    .c-home-about .hero-image {
+        width: 180px;
+        height: 180px;
+        margin-top: -24%;
+    }
+
+    .c-home-about .hero-image::before {
+        height: 190px;
+        top: 65%;
+    }
+
+    .c-home-about .hero-image::after {
+        height: 190px;
+        top: 60%;
+        right: -40px;
+    }
+
+    .hero-text-2 h1 {
+        margin-bottom: 20px;
+    }
+
+    .hero-section-2 .main-countdown ul,
+    #countdown2 ul {
+        width: 100%;
+    }
+
+    .c-home-photocarousel #gallery-slides {
+        margin-top: 20px;
+    }
+
+    .about-c-home {
+        margin-top: 25px;
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+
+    /* ------------------------- home -2 page ends ------------------------- */
+    /* ------------------------- about page starts ------------------------- */
+    .our-moments-wrapper {
+        margin-top: 30px;
+        margin-bottom: 0;
+    }
+
+    .moment-above-img {
+        bottom: 0;
+        max-height: inherit;
+        max-width: 100%;
+        position: relative;
+        height: auto;
+    }
+
+    .moments-main {
+        padding-top: 50px;
+    }
+
+    .moments-main {
+        padding-top: 30px;
+    }
+
+    .couple-container {
+        max-width: calc(100% - 100px);
+    }
+
+    .couple-left,
+    .couple-right {
+        width: 90%;
+    }
+
+    .couple-container {
+        padding: 0 10px;
+    }
+
+    .couple-right,
+    .couple-left {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .couple-left {
+        margin-bottom: 20px;
+    }
+
+    .about-couple .couple-left h5,
+    .about-couple .couple-right h5 {
+        margin-bottom: 0;
+    }
+
+    .about-couple .couple-left h4,
+    .about-couple .couple-right h4 {
+        display: inline-block;
+    }
+
+    .our-moments-wrapper::before {
+        left: -50%;
+        top: -20%;
+        transform: scale(0.5);
+    }
+
+    .our-moments-wrapper::after {
+        right: -57%;
+        bottom: -25%;
+        transform: scale(0.5);
+    }
+
+    .about-progress {
+        padding-right: 40px;
+        padding-left: 40px;
+    }
+
+    .progress-value-wrapper .examples {
+        padding: 5px 0;
+    }
+
+    /* ------------------------- about page ends ------------------------- */
+    /* ---------------------- Blog Masonry page start --------------------- */
+    .grid {
+        width: 100%;
+    }
+
+    /* ---------------------- Blog Masonry page end --------------------- */
+    /* ----------------------- blog grid page starts ----------------------- */
+    .blog-card-container {
+        grid-template-columns: 1fr;
+    }
+
+    /* ----------------------- blog grid page ends ----------------------- */
+    /* ----------------------- blog single page start ---------------------- */
+    .blogs-container.only-blog-text-adjust:after {
+        height: 30px;
+        width: 50px;
+        top: 22px;
+        right: 12px;
+        background-size: contain;
+    }
+
+    .video-play-button {
+        width: 17px;
+        height: 35px;
+        padding: 12px 14px 14px 17px;
+    }
+
+    .video-play-button:before {
+        width: 70px;
+        height: 70px;
+    }
+
+    .video-play-button:after {
+        width: 70px;
+        height: 70px;
+    }
+
+    .only-blog-text-adjust .blog-single-title {
+        margin-top: 0;
+    }
+
+    /* ----------------------- blog single page end ---------------------- */
+    /* ----------------------- story page starts ---------------------- */
+    .our-love-story {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    .story-timeline .story-timeline-wrapper .story-timeline-text {
+        width: 95%;
+        padding: 90px 30px 45px;
+    }
+
+    .story-timeline .story-timeline-wrapper .story-timeline-image .timeline-image H4 {
+        font-size: 19px;
+    }
+
+    .story-name {
+        padding-bottom: 50px;
+        padding-top: 0;
+    }
+
+    .story-couple .story-couple-text {
+        padding: 20px 10px;
+    }
+
+    .story .story-name-text h2 {
+        font-size: 35px;
+    }
+
+    .story .story-name-text h2 span {
+        font-size: 35px;
+        display: block;
+    }
+
+    .story .story-name-text h5 {
+        font-size: 20px;
+    }
+
+    .text-separator {
+        height: 40px;
+    }
+
+    .story-couple .story-couple-text h4 {
+        font-size: 28px;
+    }
+
+    /* ----------------------- story page end ---------------------- */
+    /* ----------------------- event details page starts ---------------------- */
+    .event-services-adjust .progress-main-wrapper {
+        height: 190px;
+    }
+
+    .about-progress {
+        padding-right: 15px;
+        padding-left: 15px;
+        padding-top: 30px;
+    }
+
+    section,
+    .section {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    /* ----------------------- event details page ends ---------------------- */
+    .hero-image {
+        width: 180px;
+        height: 180px;
+    }
+
+    /* --------------------- custom padding starts --------------------- */
+    .c-container-padding {
+        padding: 0 15px;
+    }
+
+    /* --------------------- custom padding starts --------------------- */
+    /* -------------------------- blog page starts ------------------------- */
+    .blog-single-content {
+        padding: 15px;
+        margin: 0;
+        width: 100%;
+    }
+
+    /* -------------------------- blog page ends ------------------------- */
+    /* -------------------------- RSVP page starts ------------------------- */
+    .celebrate-sec .main-title {
+        margin-bottom: 20px;
+    }
+
+    body .celebrate-sec {
+        padding-top: 20px;
+    }
+
+    .celebrate-it-main {
+        margin-bottom: 20px;
+    }
+
+    .card-rsvp-container {
+        margin-bottom: 60px;
+    }
+
+    .card-right-design {
+        left: 25%;
+    }
+
+    /* -------------------------- RSVP page ends ------------------------- */
+    /* -------------------------- Cover Boxes starts ------------------------- */
+    .cover-content-main ul li .cover-content {
+        display: block;
+    }
+
+    .cover-content-main ul li .cover-content .image-cover {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .cover-content-main ul li .image-cover-content {
+        padding: 0;
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .cover-content-main ul li .cover-content .image-cover-content {
+        width: 100%;
+        padding: 0;
+    }
+
+    /* -------------------------- Cover Boxes ends ------------------------- */
+    .hero-image {
+        width: 160px;
+        height: 160px;
+    }
+
+    .hero-text h1 {
+        font-size: 50px;
+        line-height: 60px;
+    }
+
+    .hero-section-2 #countdown ul li {
+        line-height: 2;
+    }
+
+    .single-tab-3 .nav-tabs {
+        text-align: center;
+        width: 100%;
+        border-radius: 25px;
+    }
+}
+
+@media (max-width: 480px) {
+    .navbar-brand img {
+        content: url(https://onvite.net/Georges&Lara/assets/images/logo.png);
+        max-width: 100%;
+        width: auto;
+        width:75px;
+        height:38px;
+        margin-top: -4px;
+    }
+    
+    .c-home-about .hero-image {
+        margin-top: -125px;
+    }
+
+    .about-couple::before {
+        width: 100px;
+        height: 90px;
+    }
+
+    .about-couple .about-center {
+        height: 500px;
+        width: 100%;
+        border-radius: 200px;
+    }
+
+    .couple-center::before {
+        height: 275px;
+        width: 220px;
+        left: -60px;
+        top: -15px;
+        background-size: contain;
+        background-position: top left;
+    }
+
+    .couple-center::after {
+        height: 300px;
+        width: 235px;
+        right: -55px;
+        bottom: -65px;
+        background-size: contain;
+    }
+
+    .couple-container {
+        max-width: calc(100% - 25px);
+    }
+
+    .story-timeline-text.text-left::before {
+        right: -70px;
+        height: 150px;
+        top: -130px;
+        width: 150px;
+    }
+
+    .story-timeline-text.text-right::before {
+        left: -70px;
+        height: 150px;
+        top: -130px;
+        width: 150px;
+    }
+
+    .story-timeline .story-timeline-wrapper .story-timeline-image .timeline-image H4 {
+        padding-bottom: 5px;
+    }
+
+    .story-timeline .story-timeline-wrapper .story-timeline-text.text-right {
+        padding: 90px 15px 25px;
+    }
+
+    .story-timeline .story-timeline-wrapper .story-timeline-image,
+    .story-timeline .story-timeline-wrapper .story-timeline-image.image-left {
+        padding: 15px;
+    }
+
+    .norm-input input {
+        font-size: 16px;
+    }
+
+    .page-title::before {
+        height: 110px;
+        width: 190px;
+        bottom: -20px;
+    }
+
+    .main-title h5 {
+        font-size: 23px;
+    }
+}
+
+@media (max-width: 390px) {
+
+    .navbar-brand img {
+        content: url(https://onvite.net/Georges&Lara/assets/images/logo.png);
+        max-width: 100%;
+        width: auto;
+        margin-top: -4px;
+    }
+	
+	/*added*/
+	 .save_date_section:before {
+        width: 90px;
+    }
+    .save_date_section:after {
+        width: 110px;
+        height: 140px;
+    }
+	 .save_date_section h3 {
+        font-size: 40px;
+        line-height: 70px;
+    }
+	.address_content {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+	
+	
+    .landing-inside h1 {
+        font-size: 30px;
+    }
+
+    .landing-desc img {
+        width: 190px;
+    }
+
+    .landing-desc p {
+        font-size: 16px;
+        padding: 5px 0;
+    }
+
+    /* ------------------------- footer css starts ------------------------- */
+    .first-let,
+    .last-let {
+        font-size: 42px;
+    }
+
+    /* ------------------------- footer css ends ------------------------- */
+    /* ------------------------- home page starts ------------------------- */
+    .main-title h3:before,
+    .main-title h3:after {
+        width: 35px;
+        height: 25px;
+    }
+
+    .hero-image {
+        width: 170px;
+        height: 170px;
+    }
+
+    .hero-text h1 {
+        font-size: 40px;
+    }
+
+    /* ------------------------- home page ends ------------------------- */
+    /* ------------------------- home -2 page starts ------------------------- */
+    .hero-section-2 .main-countdown ul,
+    #countdown2 ul {
+        width: 100%;
+    }
+
+    .hero-section-2 .hero-area h5 {
+        font-size: 20px;
+    }
+
+    .c-home-about .hero-image {
+        width: 170px;
+        height: 170px;
+    }
+
+    /* ------------------------- home -2 page ends ------------------------- */
+    /* ------------------------- footer css starts ------------------------- */
+    .footer-main img {
+        width: 150px;
+    }
+
+    .footer-main:after,
+    .footer-main:before {
+        width: 110px;
+    }
+
+    /* ------------------------- footer css ends ------------------------- */
+    /* ------------------------- about page starts ------------------------- */
+    .couple-container {
+        max-width: calc(100% - 50px);
+    }
+
+    .couple-center {
+        margin: 0px;
+    }
+
+    .about-couple .about-center {
+        height: 420px;
+    }
+
+    .name-footer {
+        height: 50px;
+    }
+
+    .first-let,
+    .last-let {
+        font-size: 32px;
+    }
+
+    .and {
+        font-size: 13px;
+    }
+
+    .couple-left {
+        margin-top: 50px;
+    }
+
+    .moments-card-left h4 {
+        font-size: 40px;
+    }
+
+    .moments-card-left p {
+        font-size: 16px;
+    }
+
+    .about-single-sep-horizontal {
+        margin-bottom: 18px;
+        margin-top: 18px;
+    }
+
+    .our-moments-wrapper::after {
+        right: -100%;
+        bottom: -36%;
+        transform: scale(0.5);
+    }
+
+    .bridesmaids-bottom {
+        bottom: -38px !important;
+    }
+
+    .about-getting-married h6 {
+        margin-top: 8px;
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    /* ------------------------- about page ends ------------------------- */
+    /* ---------------------- blog single page starts ---------------------- */
+    .image-with-text .auth-date {
+        font-size: 13px;
+    }
+
+    /* ---------------------- blog single page ends ---------------------- */
+    /* ---------------------- story page starts ---------------------- */
+    .story-timeline .story-timeline-wrapper .story-timeline-text,
+    .story-timeline .story-timeline-wrapper .story-timeline-text.text-right {
+        padding: 90px 15px 45px;
+    }
+
+    .story-timeline-wrapper {
+        padding-top: 0;
+    }
+
+    .story-couple::before {
+        display: none;
+    }
+
+    .story-couple .story-couple-text h4 {
+        font-size: 28px;
+    }
+
+    /* ---------------------- story page ends ---------------------- */
+}
+
+@media (max-width: 980px){
+
+    .save_date_section{
+        background-attachment:scroll !important;
+    }
+}
