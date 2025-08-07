@@ -15,7 +15,7 @@ if (indexPage) {
             yyyy = today.getFullYear(),
             nextYear = yyyy + 1,
             dayMonth = "09/06/",
-            birthday = dayMonth + yyyy + " 00:00:00 GMT+0300";
+            birthday = dayMonth + yyyy + " 17:00:00 GMT+0300";
 
         today = mm + "/" + dd + "/" + yyyy;
         // if (today > birthday) {
